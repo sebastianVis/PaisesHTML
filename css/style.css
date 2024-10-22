@@ -4,7 +4,7 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
-    background-color: rgb(240, 63, 0, 94);
+    background-color: rgb(163, 177, 40, 69);
     display: flex;
     justify-content: center;
 }
@@ -13,7 +13,7 @@ body{
     width: 600px;
     height: 750px;
     padding: 10px;
-    background-color: rgb(196, 77, 33, 77);
+    background-color: rgb(126, 134, 53, 53);
     color: #fff;
     margin: 10px;
     text-align: center;
@@ -29,4 +29,15 @@ body{
     height: 80%;
     object-fit: cover;
     margin-bottom: 10px;
+}
+
+.containerSub {
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(126, 134, 53, 53);
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
 }
