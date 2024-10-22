@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PruebasHTML</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Mapa de Colombia</title>
 </head>
 <body>
-    Desarrollo Web<br>
-    <b>Desarrollo Web</b><br>
-    <strong>Desarrollo Web</strong><br>
-    <i>Italica Texto</i><br>
-    <em>Texto Enfatizado</em><br>
-    Texto normal <small>Texto reducido</small><br>
-    Es importante aprender <mark>HTML</mark> y, <mark>CSS</mark> para aprender Desarrollo Web<br>
-    Antes <del>$300.000</del> ahora 200.000<br>
-    3<sup>2</sup>=9
+    <div class="container">
+        <h2 class="titulo">Mapa de Colombia</h2>
+        <img class="img" src="/images/mapaCol.png" alt="Imagen del Mapa" usemap="#mapaimg">
+        <map name="#mapaimg">
+            <area shape="circle" coords="310,220,40" href="santander.html">
+            <area shape="circle" coords="290,280,40" href="cundinamarca.html">
+            <area shape="circle" coords="240,220,40" href="antioquia.html">
+            <area shape="circle" coords="190,370,40" href="cauca.html">
+            <area shape="circle" coords="230,160,30" href="cordoba.html">
+        </map>
+    </div>
 </body>
 </html>
