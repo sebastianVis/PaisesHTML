@@ -32,6 +32,7 @@ body{
 }
 
 .containerSub {
+    font-style: normal;
     width: 600px;
     height: auto;
     padding: 10px;
@@ -40,4 +41,22 @@ body{
     margin: 10px;
     text-align: center;
     border-radius: 5px;
+}
+
+.containerSub .titulo{
+    font-style: italic;
+}
+.button {
+    width: 500px; 
+    height: 40px; 
+    background-color: rgb(168,230,0,90); 
+    color: #fff; 
+    margin-top: 40px;
+    border: none; 
+    cursor: pointer; 
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color: rgb(54,60,40,23); 
 }
