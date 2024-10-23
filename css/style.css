@@ -43,10 +43,20 @@ body{
     border-radius: 5px;
 }
 
-.containerSub .titulo{
-    font-style: italic;
+h3, li{
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 200;
 }
+
+h2{
+    text-align: center;
+}
+
+
+
 .button {
+    text-align: center;
     width: 500px; 
     height: 40px; 
     background-color: rgb(168,230,0,90); 
